@@ -11,3 +11,12 @@ const myNumber = [23, 24, 56, 26, 64, 88, 55, 96, 98];
 
 const result = myNumber.filter((num) => num<=55 ); //Filter with the condition given
 console.log(result);
+
+
+var users = ["Ted", "Tim", "Ton", "Sam", "Sor", "Sod"];
+
+console.log(users.slice(1, 3));//Include only the value between these index value;
+
+users.splice(1, 2, "HI");//First value is the starting value and the second value is the count from the staring value
+//in the example, from index 1, 2 value are removed and replaced by HI;
+console.log(users);
