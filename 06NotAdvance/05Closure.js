@@ -22,3 +22,4 @@ var add5 = doAddition(4);
 console.log(add5(5));
 
 console.log(doAddition(5)(5));//Calls the other just after the first one, possible only because of closure.
+//doAddition()()(); //<----------curring---------->
