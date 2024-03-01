@@ -1,6 +1,6 @@
 const aryan = {
     firstName : "Aryan",
-    lastName : "Mishra",
+    lastName : "mishra",
     role: "Admin",
     courseCount : 4,
     getInfo: function(){
