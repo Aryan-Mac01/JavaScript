@@ -10,7 +10,7 @@ function sumOne(a, b){
     return a+b;
 }
 
-myA = [4, 5, 6];
+myA = [11, 5, 10];
 console.log(sumOne(...myA));//'... is spread Operator' is used to send the arguments.
 
 //But if the array contains more than 2 value suppose the array is [4, 5, 1], then the function only add the first two values as it only accepts
