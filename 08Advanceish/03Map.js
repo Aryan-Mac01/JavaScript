@@ -4,7 +4,7 @@ myMap.set(0, "Uno");
 myMap.set(1, "Yes");
 myMap.set(2, "Dos");
 myMap.set(3, "Lol");
-myMap.set(4, "Des")
+myMap.set(4, "Des");
 
 console.log(myMap);
 
