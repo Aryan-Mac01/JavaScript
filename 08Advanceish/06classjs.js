@@ -7,19 +7,24 @@ class User{
         this.email = email;
     }
 
-    courseList = [];
+    #courseList = []; //This is a private variable/
 
     getInfo() {//This is a method.
         return {name: this.name, email: this.email};
     }
 
-    enrollCourse(name){
-        this.courseList.push(name);
+    enrollCourse(name){//This is a setter, and in setter we have parameters as they are to set some values.
+        this.#courseList.push(name);
     }
 
-    getCourseList(){
-        return this.courseList;
+    getCourseList(){//This is a getter, and the main purpose of getter is to return the value.
+        return this.#courseList;
     }
 }
 
 module.exports = User;//After exporting you can access this class in any file.
+
+const rock = new User("rock", "rock@gmail.com");
+console.log(rock.getInfo());
+rock.enrollCourse("Angular bootcamp");
+console.log(rock.getCourseList());//Idea of getter is so that not everybody can't access your variable.
