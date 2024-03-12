@@ -46,4 +46,3 @@ rock.enrollCourse("Angular bootcamp");
 const tom = new SubAdmin("tom", "tom@jerry.com");
 console.log(tom.getAdminInfo());//If getAdminInfo class is statis then we can't access it and this line will throw error.
 console.log(tom.login());
-console.log(tom.getInfo());
