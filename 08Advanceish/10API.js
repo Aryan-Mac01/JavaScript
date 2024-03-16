@@ -1,0 +1,1 @@
+//fetch is a already provided by JS that provides you promises everytime.
